@@ -17,8 +17,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1Q0xwH5KzNI6lNSmPUMANEeujcL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
   </component>
   <component name="RunDashboard">
@@ -35,7 +37,7 @@
   </component>
   <component name="RunManager">
     <configuration name="qwerty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="qwerty" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.ptf.sandbox.qwerty" />
       <module name="sandbox.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -43,7 +45,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.qwerty" />
+        <item itemvalue="Application.qwerty1" />
       </list>
     </recent_temporary>
   </component>
@@ -59,5 +61,16 @@
       <updated>1566921551327</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
