@@ -13,20 +13,18 @@ public class qwerty {
         Rectangle r = new Rectangle(4, 6);
         System.out.println("Площадь прямоугольника со сторонами " + r.a + " и " + r.b + " = " + r.area());
 
-        double x1 = 1;
-        double x2 = 2;
-        double y1 = 3;
-        double y2 = 4;
-        System.out.println("Расстояние между точками  = " + distance(x1, x2, y1, y2));
+        Point p1 = new Point (1,3);
+        Point p2 = new Point (2,4);
+        p1.x1 = 1;
+        p2.x2 = 2;
+        p1.y1 = 3;
+        p2.y2 = 4;
+
+        System.out.println("Расстояние между точками  = " + p2.distance());
     }
 
     public static void hello (String somebody) {
         System.out.println("Hello," + somebody+ "!");
-    }
-
-    public static double distance (double x1, double x2, double y1, double y2 ) {
-        return Math.sqrt((y2 - y1) *  (y2 - y1) + (x2 - x1) *  (x2 - x1));
-
     }
 
 
